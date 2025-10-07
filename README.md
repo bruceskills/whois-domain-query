@@ -6,24 +6,21 @@ An example project to demonstrate the creation of a CLI using Node.js.
 ![Version](https://img.shields.io/npm/v/whois-domain-query)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-
 ### Repository
 
 [Whois CLI](https://github.com/bruceskills/whois-domain-query)
 
-
 ### Table of Content
+
 - [Technologies](#technologies)
 - [Commits](#commits)
 - [Maintainers](#maintainers)
-
 
 ### Technologies
 
 - [Node.js](https://nodejs.org/pt)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Axios](https://axios-http.com/)
-
 
 1 - Clone the repository:
 
@@ -47,18 +44,18 @@ pnpm install
 ```bash
 npm link
 ```
+
 This step allows you to run the `whois-cli` command from anywhere in your terminal.
 
-
-4 - How to use
+**4 - How to use**
 
 ```bash
 # Example
 whois-cli --domain google.com
 ```
 
-
 ### Commits
+
 This project uses the [Commitizen](https://commitizen-tools.github.io/commitizen/) for standardization of commit messages.
 
 How to commit
@@ -80,8 +77,8 @@ npx git-cz
 Contributions are welcome! Please feel free to fork the repository, make changes, and submit pull requests.
 
 ### Code of Conduct
-Be respectful, keep discussions constructive, follow GitHub rules.
 
+Be respectful, keep discussions constructive, follow GitHub rules.
 
 ### Maintainers
 
